@@ -1,0 +1,9 @@
+Name: libpq
+Description: PostgreSQL libpq library
+Url: http://www.postgresql.org/
+Version: 9.4.0
+Requires: 
+Requires.private: 
+Cflags: -I/home/ravi/postgresql-9.4.0/include
+Libs: -L/home/ravi/postgresql-9.4.0/lib -lpq
+Libs.private:  -lcrypt -lpthread
